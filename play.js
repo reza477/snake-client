@@ -1,6 +1,14 @@
 const connect  = require('./client');
 console.log('Connecting ...');
 connect();
+
+// const setupInput = function() {
+//   const stdin = process.stdin;
+//   stdin.setRawMode(true);
+//   stdin.setEncoding('utf8');
+//   stdin.resume();
+//   return stdin;
+// }
 // const connect = () => {
 //   const conn = net.createConnection({
 //     host: "192.168.88.151",
